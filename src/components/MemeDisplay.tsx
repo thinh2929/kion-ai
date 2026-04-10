@@ -24,7 +24,7 @@ const MemeDisplay = ({ emotion }: MemeDisplayProps) => {
   return (
     <div className="flex-1 flex items-center justify-center flex-col h-100 w-fit">
       <h1 className="text-white">{`Cảm xúc: ${emotion}`}</h1>
-      <img src={MEME_MAP[emotion]} alt="emotion" className="h-[100%]" />
+      <img src={MEME_MAP[emotion]} alt="emotion" className="h-full" />
     </div>
   );
 };
